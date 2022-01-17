@@ -1,0 +1,81 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.both-dice {
+  display: flex;
+  margin: auto;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  height: 50%;
+}
+
+.img1 , .img2 {
+  height: 35%;
+  width: 35%;
+}
+body {
+  background-color: #FEFFDE;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 6rem;
+  color: #461111;
+  font-weight: bold;
+}
+
+p {
+  font-size: 2rem;
+  color: #461111;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+  margin-top: 5%;
+  color: #461111;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn {
+  background: #BE0000;
+  background-image: -webkit-linear-gradient(top, #BE0000,  #BE0000);
+  background-image: -moz-linear-gradient(top,  #BE0000,  #BE0000);
+  background-image: -ms-linear-gradient(top, #BE0000, #BE0000);
+  background-image: -o-linear-gradient(top, #BE0000, #BE0000);
+  background-image: linear-gradient(to bottom, #BE0000, #BE0000);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #FEFFDE;
+  font-size: 40px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #BE0000;
+  background-image: -webkit-linear-gradient(top, #BE0000, #BE0000);
+  background-image: -moz-linear-gradient(top, #BE0000, #BE0000);
+  background-image: -ms-linear-gradient(top, #BE0000, #BE0000);
+  background-image: -o-linear-gradient(top, #BE0000, #BE0000);
+  background-image: linear-gradient(to bottom, #BE0000, #BE0000);
+  text-decoration: none;
+}
